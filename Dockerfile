@@ -4,7 +4,7 @@ WORKDIR /app
 
 # Clone from GitHub instead of copying local files
 RUN apt-get update && apt-get install -y git && rm -rf /var/lib/apt/lists/*
-RUN git clone https://github.com/amitkumar262002/Ananadeshwar_Events.git .
+RUN git clone https://github.com/kishankumar213419/Ananadeshwar_Events.git .
 
 EXPOSE 8000
 
